@@ -6,8 +6,8 @@ export interface HasCapactiy {
 
 export type EvictingStack<T> = Stack.Stack<T> & HasCapactiy;
 
-export function empty<T>(capacity: number): EvictingStack<T> {
-  return { ...Stack.empty(), capacity };
+export function emptyEvictingStack<T>(capacity: number): EvictingStack<T> {
+  return { ...Stack.emptyStack(), capacity };
 }
 
 export function fromArrayHead<T>(capacity: number, ts: T[]): EvictingStack<T> {

@@ -4,7 +4,7 @@ export interface Stack<T> {
   readonly items: ReadonlyArray<T>;
 }
 
-export function empty<T>(): Stack<T> {
+export function emptyStack<T>(): Stack<T> {
   return { items: [] };
 }
 

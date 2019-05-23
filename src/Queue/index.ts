@@ -1,7 +1,13 @@
 import { fromEmpty, Maybe } from 'maybeasy';
-import { push, Stack } from '../Stack';
+import { emptyStack, push, Stack } from '../Stack';
 
 export type Queue<T> = Stack<T>;
+
+export function emptyQueue<T>(): Queue<T> {
+  return {
+    ...emptyStack,
+  } as Queue<T>;
+}
 
 export const queue = push;
 
