@@ -11,7 +11,8 @@
     "build": "tsc",
     "check": "tsc --noEmit",
     "semantic-release": "semantic-release",
-    "repl": "ts-node --project package.json"
+    "repl": "ts-node --project package.json",
+    "docs": "ts-docs-gen --entryFile ./src/index.ts"
   },
   "devDependencies": {
     "maybeasy": "^2.5.0",
