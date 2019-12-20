@@ -18,9 +18,9 @@
     "maybeasy": "^2.5.0",
     "prettier": "^1.17.1",
     "semantic-release": "^15.13.13",
-    "typescript": "^3.4.5",
     "ts-docs-gen": "^0.2.0",
-    "ts-node": "^8.1.0"
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
   },
   "peerDependencies": {
     "maybeasy": "^2.5.0"
